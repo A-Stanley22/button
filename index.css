@@ -1,0 +1,88 @@
+.container-fluid{
+    background-color: #F2F2F2;
+    height: 100vh;
+    width: 100vw;
+}
+.flex-con{
+    display: flex;
+    padding-top: 25px;
+}
+.push{
+    margin-left: auto;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+.single-btn-div{
+    margin: 23px 0 13px 0
+}
+.con-btn-heading{
+    margin: 55px 0 5px 0;
+}
+.material-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+.up-btn{
+    background-color: #E3F2FD;
+    color: #2196F3;
+}
+.up-btn:hover { 
+    box-shadow: 3px 3px 2px 2px #ccc
+  }
+.my-white-div{
+    background-color: white;
+    padding-left: 45px;
+}
+.my-own{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.my-round{
+    border-radius: 20px;
+}
+.btn-heading{
+    color: #A9A9A9;
+    font-size: 11px;
+    margin: 25px 0 5px 0;
+}
+.disable-up{
+    background-color: #D7D5D5;
+    color: #9E9E9E;
+}
+.disable-down{
+    background-color: #9E9E9E;
+    color: #CBCBCB;
+}
+.down-btn{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.down-btn:hover { 
+    box-shadow: 3px 3px 2px 2px #ccc
+  }
+.disable-down:hover { 
+    box-shadow: 3px 3px 2px 2px #ccc
+  }
+.disable-up:hover { 
+    box-shadow: 3px 3px 2px 2px #ccc
+  }
+.float-heading{
+    margin: 45px 0 10px 0;
+}
+.my-action{
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 360px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .material-text {
+        font-size: 10px;
+        font-weight: bold;
+    }
+  }
